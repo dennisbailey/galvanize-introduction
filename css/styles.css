@@ -18,3 +18,11 @@ body {
   text-align: center;
   font-size: 2em;
 }
+
+.img-intro { 
+  height: 480 px;
+  width: 640px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
