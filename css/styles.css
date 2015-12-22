@@ -1,0 +1,28 @@
+/* START Body Styling */
+body {
+  margin: 0;
+  background-color: #4178BE;
+  /* Typography Declarations */
+  color: #FEFEFE;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+/* END Body Styling */
+
+.h1-intro {
+  text-align: center;
+  font-size: 3em;
+}
+
+.h2-intro {
+  text-align: center;
+  font-size: 2em;
+}
+
+.img-intro { 
+  height: 480 px;
+  width: 640px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
