@@ -35,7 +35,6 @@ body {
   margin-right: auto;
 }
 
-
 .paths {
   display: block;
   text-align: center;
@@ -58,4 +57,22 @@ body {
 .paths a {
   text-decoration: none;
   font-variant: small-caps;
+}
+
+.disclaimer {
+  display: block;
+  text-align: center;
+}
+
+.disclaimer li {
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  line-height: 50px;
+}
+
+.banana {
+  height: 50px;
+  width: 50px;
 }
