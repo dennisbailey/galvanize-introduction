@@ -15,8 +15,16 @@ body {
 }
 
 .h2-intro {
+  display: block;
+  text-align: center;
   text-align: center;
   font-size: 2em;
+}
+
+.h3-intro {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .img-intro { 
@@ -25,4 +33,46 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.paths {
+  display: block;
+  text-align: center;
+}
+
+.paths li {
+  display: inline-block;
+  text-align: center;
+  background-color: #FFB948;
+  font-size: 1.75em;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  height: 100px;
+  width: 300px;
+  line-height: 100px;
+  max-width: 100%;
+  border-radius: 300px;
+  margin: 40px;
+}
+
+.paths a {
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+.disclaimer {
+  display: block;
+  text-align: center;
+}
+
+.disclaimer li {
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  line-height: 50px;
+}
+
+.banana {
+  height: 50px;
+  width: 50px;
 }
