@@ -1,38 +1,65 @@
-/* START Body Styling */
 body {
-  margin: 0;
+  margin: 0px 40px;
   background-color: #4178BE;
   /* Typography Declarations */
   color: #FEFEFE;
   font-size: 1em;
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Avenir Next", "Verdana", sans-serif;
 }
-/* END Body Styling */
 
-.h1-intro {
+.intro h1 {
   text-align: center;
   font-size: 3em;
 }
 
-.h2-intro {
-  display: block;
-  text-align: center;
-  text-align: center;
-  font-size: 2em;
-}
-
-.h3-intro {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 1.5em;
-}
-
 .img-intro { 
-  height: 480 px;
-  width: 640px;
+  height: 640 px;
+  width: 480px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.add-me {
+  max-width: 640px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-me h2 {
+  text-align: center;
+  font-size: 2em;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-linkedin { 
+  height: 640 px;
+  width: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.disclaimer {
+  display: block;
+  text-align: center;
+}
+
+.disclaimer li {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1em;
+  font-family: "Avenir Next", "Verdana", sans-serif;
+  line-height: 25px;
+}
+
+.banana {
+  height: 50px;
+  width: 50px;
 }
 
 .paths {
@@ -45,7 +72,7 @@ body {
   text-align: center;
   background-color: #FFB948;
   font-size: 1.75em;
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "Avenir Next", "Verdana", sans-serif;
   height: 100px;
   width: 300px;
   line-height: 100px;
@@ -56,23 +83,5 @@ body {
 
 .paths a {
   text-decoration: none;
-  font-variant: small-caps;
-}
-
-.disclaimer {
-  display: block;
-  text-align: center;
-}
-
-.disclaimer li {
-  display: inline-block;
-  text-align: center;
-  font-size: 1em;
-  font-family: "Open Sans", "Helvetica", sans-serif;
-  line-height: 50px;
-}
-
-.banana {
-  height: 50px;
-  width: 50px;
+  font-weight: 400;
 }
