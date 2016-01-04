@@ -103,6 +103,18 @@ a:active {
   width: 50px;
 }
 
+.mystery {
+  display: block;
+  text-align: center;
+}
+
+.mystery button {
+	background-color: red;
+	border-radius: 10px;
+	color: #EFEFEF;
+	font-size: 1.5em;
+}
+
 .paths {
   display: block;
   text-align: center;
@@ -124,7 +136,7 @@ a:active {
 
 .paths a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .list {
