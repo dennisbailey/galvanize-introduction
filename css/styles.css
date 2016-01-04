@@ -1,3 +1,4 @@
+/* Body Styling */
 body {
   margin: 0px 40px;
   background-color: #4178BE;
@@ -7,6 +8,7 @@ body {
   font-family: "Avenir Next", "Verdana", sans-serif;
 }
 
+/* Hyperlink styling */
 /* unvisited link */
 a:link {
     color: #FEFEFE;
@@ -26,6 +28,7 @@ a:hover {
 a:active {
     color: #FEFEFE;
 }
+
 
 .content {
   max-width: 640px;
@@ -60,7 +63,6 @@ a:active {
 }
 
 .add-me {
-  max-width: 640px;
   display: block;
   margin-left: auto;
   margin-right: auto;
